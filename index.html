@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>zernitskaya</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
   <style>
     /* stylelint-disable */
@@ -344,6 +344,10 @@
       display: none;
     }
 
+    .contact {
+      padding-bottom: 20px;
+    }
+
     .contact__list {
       list-style: none;
     }
@@ -401,7 +405,7 @@
     .resume {
       max-width: 900px;
       margin: 0 auto;
-      background-color: #acdff7b5;
+      /* background-color: #acdff7b5; */
     }
 
     .resume__wrap {
@@ -421,6 +425,7 @@
 
     .resume__wrap-img {
       margin: 0 -30px;
+      padding: 0px 30px;
     }
 
     .resume__img {
@@ -431,8 +436,6 @@
     .resume__personal {
       width: 39%;
       margin-right: 30px;
-      padding: 0 30px 15px 30px;
-      background: aliceblue;
     }
 
     .resume__about-text {
@@ -457,6 +460,7 @@
       width: 350px;
       height: 50px;
       margin-top: 20px;
+      margin-bottom: 50px;
       background-color: transparent;
       border: 1px solid #467bc1;
       color: #0e3973;
@@ -571,37 +575,21 @@
                   @zernitskaya
                 </a>
               </li>
-
-              <!-- <li class="contact__item">
-                                <a href="#" class="contact__link" resume="instagram">
-                                    <span class="contact__icon icon-i-inst"
-                                        style="background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgPHJlc3VtZSAvPgogICAgPGcgaWQ9Imluc3RhZ3JhbSI+CiAgICAgICAgPHBhdGgKICAgICAgICAgICAgZD0iTTQ0LjUsOUExMC41MSwxMC41MSwwLDAsMSw1NSwxOS41djI1QTEwLjUxLDEwLjUxLDAsMCwxLDQ0LjUsNTVoLTI1QTEwLjUxLDEwLjUxLDAsMCwxLDksNDQuNXYtMjVBMTAuNTEsMTAuNTEsMCwwLDEsMTkuNSw5aDI1bTAtMmgtMjVBMTIuNSwxMi41LDAsMCwwLDcsMTkuNXYyNUExMi41LDEyLjUsMCwwLDAsMTkuNSw1N2gyNUExMi41LDEyLjUsMCwwLDAsNTcsNDQuNXYtMjVBMTIuNSwxMi41LDAsMCwwLDQ0LjUsN1oiIC8+CiAgICAgICAgPHBhdGggZD0iTTMyLDIyQTEwLDEwLDAsMSwxLDIyLDMyLDEwLDEwLDAsMCwxLDMyLDIybTAtMkExMiwxMiwwLDEsMCw0NCwzMiwxMiwxMiwwLDAsMCwzMiwyMFoiIC8+CiAgICAgICAgPHBhdGggZD0iTTQ2LDE1YTIsMiwwLDEsMS0yLDIsMiwyLDAsMCwxLDItMm0wLTJhNCw0LDAsMSwwLDQsNCw0LDQsMCwwLDAtNC00WiIgLz4KICAgIDwvZz4KPC9zdmc+')"
-                                        ;>
-                                    </span>
-                                    zernitskayadasha
-                                </a>
-                            </li> -->
             </ul>
           </nav>
         </div>
 
-        <div class=" resume__about">
+        <!-- <div class=" resume__about">
           <h2 class="title">
             About me
           </h2>
           <p class="resume__about-text">
-            A fan of my craft. experience in the layout of web applications,
-            online stores.
-            Component layout according to BEM methodology, in particular with js
-            frameworks.
-            I know the subtleties and nuances of layout.
+            I like to create beauty out of nothing.
+            Like to solve difficult problems and do it carefully. As a person, I'm stress-resistant enough and very
+            communicable.
+            In programming, I appreciate the possibility of growth and skills development.
           </p>
-          <p class="resume__about-text">
-            I'm proud of the code I wrote, I try to make it perfect.
-            Participated in the devchallenge.it competition.
-            Improving skills.
-          </p>
-        </div>
+        </div> -->
 
         <div class="resume__study">
           <h2 class="title">
@@ -626,11 +614,11 @@
               <div class="resume__study-date">2021</div>
             </li>
 
-            <!-- <li class="resume__study-item">
+            <li class="resume__study-item">
               <div class="resume__study-name">NUFT (Kiev,Ukraine)</div>
               <div class="resume__study-pos">Business Economics</div>
               <div class="resume__study-date">2013</div>
-            </li> -->
+            </li>
           </ul>
         </div>
 
@@ -684,10 +672,6 @@
             </li>
 
             <li class="resume__skills-item">
-              Block, tabular layout (I'll give preference to block)
-            </li>
-
-            <li class="resume__skills-item">
               bem
             </li>
 
@@ -730,18 +714,9 @@
             Work
           </h2>
           <ul class="resume__work-list">
-            <li class="resume__work-item"></li>
-            <!-- <li class="resume__work-item">
-              <div class="resume__work-position">HTML-coder</div>
-              <div class="resume__work-date">06.2020 - 01.2021</div>
-              <div class="resume__work-name">
-                <a class="contact__link" href="https://webstars.com.ua/">WEBSTARS</a>
-              </div>
-            </li> -->
-
             <li class="resume__work-item">
               <div class="resume__work-position">HTML-coder</div>
-              <div class="resume__work-date">10.2019 - 2021</div>
+              <div class="resume__work-date">10.2019 - 01.2021</div>
               <div class="resume__work-name">Freelance</div>
             </li>
           </ul>
